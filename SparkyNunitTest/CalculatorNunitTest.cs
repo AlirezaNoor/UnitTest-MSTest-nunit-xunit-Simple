@@ -18,7 +18,7 @@ public class CalculatorNunitTest
     }
 
     [Test]
-    public void Calculate_For_Input_odd_number_OutPut_False()
+    public void Calculate_For_Input_Not_odd_number_OutPut_False()
     {
         //Aarrnge
         Calculator cal = new();
@@ -29,5 +29,18 @@ public class CalculatorNunitTest
         //Assert
         
         Assert.That(result,Is.EqualTo(false));
+    }
+
+    [Test]
+    public  void Calculate_Input_OddNummber_OutPut_True()
+    {
+        //Aarrnge
+        Calculator cal = new();
+        
+        //Act
+        bool result = cal.OddNumberCalculate(11);
+        
+        //Assert
+        Assert.That(result,Is.EqualTo(true));
     }
 }
