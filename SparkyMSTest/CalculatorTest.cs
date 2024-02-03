@@ -14,6 +14,6 @@ public class CalculatorTest
         //Act
        int result= cal.AddCalculater(10,20);
         //Assert
-        Assert.AreEqual(30,result);
+        Assert.AreEqual(30 ,result);
     }
 }
