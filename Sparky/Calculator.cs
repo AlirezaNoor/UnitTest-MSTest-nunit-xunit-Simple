@@ -6,4 +6,10 @@ public class Calculator
     {
         return a + b;
     }
+
+    public bool OddNumberCalculate(int a)
+    {
+
+        return a % 2 != 0;
+    }
 }
