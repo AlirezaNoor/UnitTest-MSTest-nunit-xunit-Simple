@@ -24,5 +24,10 @@ public class CalculatorNunitTest
         Calculator cal = new();
         
         //Act
+        bool result = cal.OddNumberCalculate(10);
+        
+        //Assert
+        
+        Assert.That(result,Is.EqualTo(false));
     }
 }
