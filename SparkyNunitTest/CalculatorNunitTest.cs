@@ -31,6 +31,7 @@ public class CalculatorNunitTest
         //Assert
 
         Assert.That(result, Is.EqualTo(false));
+        Assert.IsFalse(result);
     }
 
     [Test]
@@ -46,5 +47,19 @@ public class CalculatorNunitTest
 
         //Assert
         Assert.That(result, Is.EqualTo(true));
+        Assert.IsTrue(result);
+    }
+    [Test]
+    [TestCase(10,ExpectedResult = false)]
+    [TestCase(11,ExpectedResult = true)]
+    public bool Calculate_Input_OddNummber_True( int a)
+    {
+        //Aarrnge
+        Calculator cal = new();
+
+        //Act
+        bool result = cal.OddNumberCalculate(a);
+        return result;
+
     }
 }
