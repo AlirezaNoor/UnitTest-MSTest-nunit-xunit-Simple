@@ -9,7 +9,12 @@ public class Calculator
 
     public bool OddNumberCalculate(int a)
     {
-
         return a % 2 != 0;
+    }
+
+
+    public double AddDoubleCalculator(double a, double b)
+    {
+        return a + b;
     }
 }

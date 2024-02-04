@@ -59,7 +59,9 @@ public class CalculatorNunitTest
 
         //Act
         bool result = cal.OddNumberCalculate(a);
+        
         return result;
 
     }
 }
+
