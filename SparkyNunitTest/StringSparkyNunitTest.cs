@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System.Text.RegularExpressions;
+using NUnit.Framework;
 using Sparky;
 
 namespace SparkyNunitTest;
@@ -11,5 +12,8 @@ public class StringSparkyNunitTest
         StringSparky sparky = new StringSparky();
         var result=sparky.SayHellow("alireza", "Noor");
         Assert.That(result,Is.EqualTo("helllow alireza Noor"));
+        Assert.That(result,Does.Contain("ali").IgnoreCase);
+        Assert.That(result,Does.StartWith("helllow"));
+        Assert.That(result,Does.Match("helllow [a-z]"));
     }
 }
