@@ -7,6 +7,14 @@ namespace SparkyNunitTest;
 [TestFixture]
 public class StringSparkyNunitTest
 {
+    private StringSparky stringSparky;
+
+    [SetUp]
+    public void Setup()
+    {
+        stringSparky = new StringSparky();
+    }
+
     [Test]
     public void Check_String_return_Was_True()
     {
@@ -26,5 +34,13 @@ public class StringSparkyNunitTest
     {
         StringSparky sparky = new StringSparky();
         Assert.IsNull(sparky.GenerateName);
+    }
+
+    [Test]
+    public void GreetCheacker_EmptyFirstName_ThrowExcetion()
+    {
+        stringSparky.SayHellow("alireza", "");
+        Assert.IsNotNull(stringSparky.GenerateName);
+        Assert.IsFalse(string.IsNullOrEmpty(stringSparky.GenerateName));
     }
 }
