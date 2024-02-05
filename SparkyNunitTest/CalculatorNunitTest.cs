@@ -6,6 +6,14 @@ namespace SparkyNunitTest;
 [TestFixture]
 public class CalculatorNunitTest
 {
+    private Calculator cal;
+
+    [SetUp]
+    public void Setup()
+    {
+        cal = new Calculator();
+    }
+
     [Test]
     public void Calulate_Two_number_Toghether()
     {
@@ -22,8 +30,7 @@ public class CalculatorNunitTest
     [TestCase(200)]
     public void Calculate_For_Input_Not_odd_number_OutPut_False(int a)
     {
-        //Aarrnge
-        Calculator cal = new();
+   
 
         //Act
         bool result = cal.OddNumberCalculate(a);
@@ -39,8 +46,7 @@ public class CalculatorNunitTest
     [TestCase(21)]
     public void Calculate_Input_OddNummber_OutPut_True(int a)
     {
-        //Aarrnge
-        Calculator cal = new();
+ 
 
         //Act
         bool result = cal.OddNumberCalculate(a);
@@ -64,16 +70,27 @@ public class CalculatorNunitTest
     }
 
     [Test]
-    [TestCase(5.4,10.5)]
-    public void Calculate_TWo_Double_Number_Together(double a , double b)
+    [TestCase(5.4, 10.5)]
+    public void Calculate_TWo_Double_Number_Together(double a, double b)
     {
         //Aarrnge
-        Calculator cal = new();
+ 
 
         //Act
-        var  result = cal.AddDoubleCalculator(a,b);
-        
+        var result = cal.AddDoubleCalculator(a, b);
+
         //Assert
-        Assert.AreEqual(15.9,result,.1);
+        Assert.AreEqual(15.9, result, .1);
     }
+
+    [Test]
+    public void Calculate_Lsit_Of_Number_That_odd_Number()
+    {
+ 
+
+        List<int> Input = new List<int>() { 5, 7, 9 };
+        var result = cal.Add_Oddnumber_To_List(4, 10);
+        Assert.That(result,Is.EquivalentTo(Input));
+    }
+ 
 }
