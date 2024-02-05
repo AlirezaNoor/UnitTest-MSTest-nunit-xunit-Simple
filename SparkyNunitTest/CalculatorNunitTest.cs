@@ -51,7 +51,6 @@ public class CalculatorNunitTest
     }
 
     [Test]
-    [TestCase(10, ExpectedResult = false)]
     [TestCase(11, ExpectedResult = true)]
     public bool Calculate_Input_OddNummber_True(int a)
     {

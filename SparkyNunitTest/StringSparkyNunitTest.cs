@@ -16,4 +16,10 @@ public class StringSparkyNunitTest
         Assert.That(result,Does.StartWith("helllow"));
         Assert.That(result,Does.Match("helllow [a-z]"));
     }
+    [Test]
+    public void Check_null_Value_Is_True()
+    {
+        StringSparky sparky = new StringSparky();
+        Assert.IsNull(sparky.GenerateName);
+    }
 }
