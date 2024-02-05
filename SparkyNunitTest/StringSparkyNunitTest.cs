@@ -39,8 +39,18 @@ public class StringSparkyNunitTest
     [Test]
     public void GreetCheacker_EmptyFirstName_ThrowExcetion()
     {
-        stringSparky.SayHellow("alireza", "");
+        stringSparky.FullName("alireza", "");
         Assert.IsNotNull(stringSparky.GenerateName);
         Assert.IsFalse(string.IsNullOrEmpty(stringSparky.GenerateName));
+    }
+
+    [Test]
+    public void GreetCheacker_EmptyFirstName_ThrowExcetion_2()
+    {
+        var expetion = Assert.Throws<ArgumentException>(() =>
+            stringSparky.FullName("", "Alireza"));
+        Assert.AreEqual("Empty first Name", expetion.Message);
+        Assert.That(() => stringSparky.FullName("", "test"),
+            Throws.ArgumentException.With.Message.EqualTo("Empty first Name"));
     }
 }
