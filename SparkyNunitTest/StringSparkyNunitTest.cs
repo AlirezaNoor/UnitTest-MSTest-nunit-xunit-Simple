@@ -9,6 +9,7 @@ public class StringSparkyNunitTest
 {
     private StringSparky stringSparky;
 
+
     [SetUp]
     public void Setup()
     {
@@ -52,5 +53,21 @@ public class StringSparkyNunitTest
         Assert.AreEqual("Empty first Name", expetion.Message);
         Assert.That(() => stringSparky.FullName("", "test"),
             Throws.ArgumentException.With.Message.EqualTo("Empty first Name"));
+    }
+
+    [Test]
+    public void Customer_CreateCustomerWithLessThen100_ReturnBasicCustomer()
+    {
+        stringSparky.totalorder = 10;
+        var Result = stringSparky.GetCustomerDatails();
+        Assert.That(Result, Is.TypeOf<BasicCustomer>());
+    }
+
+    [Test]
+    public void Customer_CreateCustomerWithMore_Then100_ReturnBasicCustomer()
+    {
+        stringSparky.totalorder = 110;
+        var Result = stringSparky.GetCustomerDatails();
+        Assert.That(Result, Is.TypeOf<PlatformCustomer>());
     }
 }
