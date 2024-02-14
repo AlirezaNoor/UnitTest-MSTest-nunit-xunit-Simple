@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r9+vtfqpnNTUSnjGnVlaiUKWV7tGbeI84I2eRAkjlaymJqixoxqAOLTpIs0r9cjxRLpAgXIfXTKiV8sj6iG3mA==",
+  "dgSpecHash": "cSUbmOk5vmO/FcRFpcHJO08PDbk62KQ5GLl/iJfEMOzj7zq/28cjK1RbAliayAZ/iVWYYkX/gHgvD9rDXvXdfw==",
   "success": true,
   "projectFilePath": "D:\\Testing\\Sparky\\SparkyNunitTest\\SparkyNunitTest.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,10 @@
     "C:\\Users\\shahab-i317\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\shahab-i317\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\shahab-i317\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
-    "C:\\Users\\shahab-i317\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
   ],
   "logs": []
 }

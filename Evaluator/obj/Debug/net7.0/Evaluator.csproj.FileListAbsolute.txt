@@ -1,0 +1,12 @@
+D:\Testing\Sparky\Evaluator\bin\Debug\net7.0\Evaluator.deps.json
+D:\Testing\Sparky\Evaluator\bin\Debug\net7.0\Evaluator.dll
+D:\Testing\Sparky\Evaluator\bin\Debug\net7.0\Evaluator.pdb
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\Evaluator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\Evaluator.AssemblyInfoInputs.cache
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\Evaluator.AssemblyInfo.cs
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\Evaluator.csproj.CoreCompileInputs.cache
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\Evaluator.sourcelink.json
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\Evaluator.dll
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\refint\Evaluator.dll
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\Evaluator.pdb
+D:\Testing\Sparky\Evaluator\obj\Debug\net7.0\ref\Evaluator.dll

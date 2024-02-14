@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eK9QY79/pJ42sjAlRLvGPCHhKTthhrqzvMKu8bxL5ytyCq8OIBo63xm1cMSRVkYjHY2gGQ7wq/6ug23P5mmCjw==",
+  "success": true,
+  "projectFilePath": "D:\\Testing\\Sparky\\Evaluator\\Evaluator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
