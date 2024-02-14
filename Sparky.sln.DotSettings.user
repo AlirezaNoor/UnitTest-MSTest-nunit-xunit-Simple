@@ -7,6 +7,9 @@
       &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Evaluator_Should_be_Odd&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Evaluator_Should_be_Even&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Check_TheNumber_Was_back_to_user&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Check_Fiz_in_Game&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Chack_Buzz_in_Game&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Chack_FizBuzz_in_Game&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;Project Location="D:\Testing\Sparky\SparkyNunitTest" Presentation="&amp;lt;SparkyNunitTest&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;
