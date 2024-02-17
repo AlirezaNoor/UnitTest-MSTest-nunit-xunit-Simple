@@ -8,6 +8,9 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0624bdab_002D31ba_002D4ad7_002Db52c_002D3abc4a3189b3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Accdemy_null_or_emty_name_property_in_Constructor #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_null_or_emty_name_property_in_Constructor&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.SectionTest.Check_section&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accemy_Constructor_checker&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accedmey_must_Add_to_Section_when_we_pass_id_And_Name&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0fc6776c_002Dc7c8_002D411d_002Daddc_002D18b0fd2280c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Accemy_Constructor_checker" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

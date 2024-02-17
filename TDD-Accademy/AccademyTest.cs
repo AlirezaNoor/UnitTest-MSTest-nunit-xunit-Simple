@@ -20,6 +20,7 @@ public class AccademyTest
         accdemyClass.IsOnline.Should().Be(isOnlion);
         accdemyClass.Tuition.Should().Be(tuition);
         accdemyClass.Teacher.Should().Be(teacher);
+        accdemyClass.Section.Should().BeEmpty();
     }
 
     [Fact]
@@ -36,6 +37,21 @@ public class AccademyTest
         AccdemyTestBuilder testBuilder = new();
         Action _Accdemy = () => testBuilder.WtihTurtion(0).builde();
         _Accdemy.Should().ThrowExactly<MyCustomExcption>() ;;
+    }
+
+    [Fact]
+    public void Accedmey_must_Add_to_Section_when_we_pass_id_And_Name()
+    {
+        AccdemyTestBuilder testBuilder = new();
+        var result = testBuilder.builde();
+
+        const int id = 1;
+        const string name = "Alireza";
+        Sectionclass sectionclass = new Sectionclass(id, name);
+        result.AddAction(sectionclass);
+
+        result.Section.Should().ContainEquivalentOf(sectionclass);
+
     }
 }
 

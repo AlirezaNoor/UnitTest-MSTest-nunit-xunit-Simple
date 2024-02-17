@@ -7,6 +7,7 @@ public class AccdemyClass
     public double Tuition { get; set; }
     public bool IsOnline { get; set; }
     public string Teacher { get; set; }
+    public List<Sectionclass> Section { get; set; }
 
     public AccdemyClass(int id, string student, bool isOnlion, double tuition, string teacher)
     {
@@ -17,6 +18,7 @@ public class AccdemyClass
         Name = student;
         Tuition = tuition;
         Teacher = teacher;
+        Section = new List<Sectionclass>();
     }
 
     private static void TutiionThrowExption(double tuition)
@@ -33,5 +35,10 @@ public class AccdemyClass
         {
             throw new MyCustomExcption();
         }
+    }
+
+    public void AddAction(Sectionclass sectionclass)
+    {
+        Section.Add(sectionclass);
     }
 }
