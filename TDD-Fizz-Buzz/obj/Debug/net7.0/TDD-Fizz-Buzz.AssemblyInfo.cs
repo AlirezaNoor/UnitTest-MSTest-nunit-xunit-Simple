@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDD-Fizz-Buzz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afdc3e20c74180336b591e08ae841d7c98dee15f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4df6a5354ce4ce071658aca2bf2cb0e9bc80d90")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDD-Fizz-Buzz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDD-Fizz-Buzz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
