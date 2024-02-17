@@ -20,6 +20,9 @@
     &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Check_All&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5E077AAA-CA81-4231-8077-9E3A5B9F77E4::net7.0::TDD_Even_odd.EvaliuatorTest.Evaliuator_MustBe_pass_even_when_passEnvennuber_to_method&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5E077AAA-CA81-4231-8077-9E3A5B9F77E4::net7.0::TDD_Even_odd.EvaliuatorTest.Evalitor_MustBe_pass_odd_when_pass_odd_number_to_methd&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE08426-1475-42DD-80DC-CF2F8091B56A::net7.0::TDD_Fizz_Buzz.FizzBuzzTest.Return_Fizz_when_we_Pass_nummber_That_Divable_To_3&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE08426-1475-42DD-80DC-CF2F8091B56A::net7.0::TDD_Fizz_Buzz.FizzBuzzTest.Return_Fizz_When_We_pass_nummber_that_divable_to_5&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DE08426-1475-42DD-80DC-CF2F8091B56A::net7.0::TDD_Fizz_Buzz.FizzBuzzTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ed8fa8ac_002D5522_002D4375_002Db9be_002De3cc1cc87762/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BankDepoit_Add100_returnTrue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
