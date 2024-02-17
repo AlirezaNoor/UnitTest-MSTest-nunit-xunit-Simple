@@ -1,4 +1,28 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0118da74_002De82a_002D4476_002Da7b4_002Db344df254fc5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Accdemy_null_or_emty_name_property_in_Constructor #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_null_or_emty_name_property_in_Constructor&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_Tution_Throw_exption_when_smaller_or_0&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0624bdab_002D31ba_002D4ad7_002Db52c_002D3abc4a3189b3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Accdemy_null_or_emty_name_property_in_Constructor #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_null_or_emty_name_property_in_Constructor&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0fc6776c_002Dc7c8_002D411d_002Daddc_002D18b0fd2280c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Accemy_Constructor_checker" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accemy_Constructor_checker&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_Tution_Throw_exption_when_smaller_or_0&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2ed5e5d9_002D94c4_002D4d23_002Db878_002D4f7166e08658/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Accdemy_null_or_emty_name_property_in_Constructor" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_null_or_emty_name_property_in_Constructor&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_Tution_Throw_exption_when_smaller_or_0&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accemy_Constructor_checker&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=629f61c9_002D4d70_002D4f13_002Db9e1_002D4bf0c5f06aae/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CalculatorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
@@ -14,7 +38,13 @@
     &lt;Project Location="D:\Testing\Sparky\SparkyNunitTest" Presentation="&amp;lt;SparkyNunitTest&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c47a8047_002D8d6d_002D4fd6_002Da01d_002D0804d0402864/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Evaluator_Should_be_Even" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8d6f9011_002D690d_002D4cb7_002D86af_002D1fdee7848949/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Accdemy_Tution_Throw_exption_when_smaller_or_0" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_Tution_Throw_exption_when_smaller_or_0&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A51EF695-9F5A-45BF-A359-744F8163C8E2::net7.0::TDD_Accademy.AccademyTest.Accdemy_null_or_emty_name_property_in_Constructor&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c47a8047_002D8d6d_002D4fd6_002Da01d_002D0804d0402864/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Evaluator_Should_be_Even" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Evaluator_Should_be_Even&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::BDFF4E89-265A-41A5-A615-26964F982A89::net7.0::XunitTest.UnitTest1.Check_All&lt;/TestId&gt;&#xD;

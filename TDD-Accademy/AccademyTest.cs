@@ -1,3 +1,4 @@
+using FluentAssertions;
 using Xunit;
 
 namespace TDD_Accademy;
@@ -11,27 +12,30 @@ public class AccademyTest
         const string name = "Student";
         const bool isOnlion = true;
         const double tuition = 1000;
-
-        AccdemyClass accdemyClass = new AccdemyClass(id, name, isOnlion, tuition);
-        Assert.Equal(id, accdemyClass.Id);
-        Assert.Equal(name, accdemyClass.Name);
-        Assert.Equal(tuition, accdemyClass.Tuition);
-        Assert.Equal(isOnlion, accdemyClass.IsOnline);
+        const string teacher = "Alireza";
+        AccdemyTestBuilder testBuilder = new AccdemyTestBuilder();
+        var accdemyClass = testBuilder.builde();
+        accdemyClass.Id.Should().Be(id);
+        accdemyClass.Name.Should().Be(name);
+        accdemyClass.IsOnline.Should().Be(isOnlion);
+        accdemyClass.Tuition.Should().Be(tuition);
+        accdemyClass.Teacher.Should().Be(teacher);
     }
-}
 
-public class AccdemyClass
-{
-    public AccdemyClass(int id, string student, bool isOnlion, double tuition)
+    [Fact]
+    public void Accdemy_null_or_emty_name_property_in_Constructor()
     {
-        Id = id;
-        IsOnline = isOnlion;
-        Name = student;
-        Tuition = tuition;
+        AccdemyTestBuilder testBuilder = new AccdemyTestBuilder();
+        Action Accdemyclass = () => testBuilder.withName("").builde();
+        Accdemyclass.Should().ThrowExactly<MyCustomExcption>() ;
     }
 
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public double Tuition { get; set; }
-    public bool IsOnline { get; set; }
+    [Fact]
+    public void Accdemy_Tution_Throw_exption_when_smaller_or_0()
+    {
+        AccdemyTestBuilder testBuilder = new();
+        Action _Accdemy = () => testBuilder.WtihTurtion(0).builde();
+        _Accdemy.Should().ThrowExactly<MyCustomExcption>() ;;
+    }
 }
+
