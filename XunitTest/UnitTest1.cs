@@ -14,7 +14,7 @@ public class UnitTest1
  }
 
  [Fact]
- public void Evaluator_Should_be_Odd(
+ public void Evaluator_Should_be_Odd()
  {
   const int a = 11;
   Evaluator.Evaluator evaluator = new();
@@ -52,5 +52,15 @@ public class UnitTest1
   const int all = 100;
   var result = Fizz_Buzz_Game.Start(all);
   Assert.Equal("Buzz",result[4]);
+ }
+[Theory]
+[InlineData("Fizz",2)]
+[InlineData("FizzBuzz",14)]
+[InlineData("Buzz",4)]
+ public void Check_All(string expected,int element)
+ {
+  const int round = 100;
+  var result = Fizz_Buzz_Game.Start(round);
+  Assert.Equal(expected,result[element]);
  }
 }

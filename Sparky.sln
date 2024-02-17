@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTest", "XunitTest\Xuni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluator", "Evaluator\Evaluator.csproj", "{205DBCC5-1A5C-4666-A162-87A91B04058D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD-Even-odd", "TDD-Even-odd\TDD-Even-odd.csproj", "{5E077AAA-CA81-4231-8077-9E3A5B9F77E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{205DBCC5-1A5C-4666-A162-87A91B04058D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205DBCC5-1A5C-4666-A162-87A91B04058D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205DBCC5-1A5C-4666-A162-87A91B04058D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E077AAA-CA81-4231-8077-9E3A5B9F77E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E077AAA-CA81-4231-8077-9E3A5B9F77E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E077AAA-CA81-4231-8077-9E3A5B9F77E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E077AAA-CA81-4231-8077-9E3A5B9F77E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

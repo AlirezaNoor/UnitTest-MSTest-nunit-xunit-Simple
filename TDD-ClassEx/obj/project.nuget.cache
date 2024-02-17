@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xU6/0OjJFX4LoxwHwarO9wP+Q8SHgrsK/L4B+MBj/ByEei3f9RhVdjrwmd04HiW+e/Kq16ESaUkrLKZUeFgKSA==",
+  "success": true,
+  "projectFilePath": "D:\\Testing\\Sparky\\TDD-ClassEx\\TDD-ClassEx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\shahab-i317\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
